@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    transition: all ease-in-out;
+    scroll-behavior: smooth;
+    background-size: 100%;
+}
+
+nav{
+    background: #e53f3f;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    padding: 0 10%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.title{
+    margin-right: auto;
+}
+.home{    
+    background-color: #968787; 
+    background: #151414;   
+}
+.container{
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    margin-top: 100px;
+    width:450px;
+    height:auto;
+    border-radius: 5px;
+   margin-left: 20%;
+   margin-top: 5%;
+}
+.home-context{
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 15px;
+    border-radius:10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgb(5, 193, 18);
+    color:#fff;
+    
+}  
+.label{
+    padding: 20px 130px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#edefee;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-bottom: grey;
+}
+
+.login_form{
+    padding:20px 40px;
+}
+.login_form .font{
+    font-size: 18px;
+    color:#dcb90c;
+    margin: 5px 0;
+}
+.login_form input{
+    height: 30px;
+    width:350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.login_form .font2{
+    margin-top:20px;
+}
+.login_form button{
+    margin: 45px 20px 90px 0;
+    height: 45px;
+    width: 360px;
+    color:white;
+    outline:white;
+    cursor:pointer;
+    background:blue;
+    border: 1px solid grey;
+    
+
+}
+
+.form-check-label{
+    color:rgb(179, 227, 19);
+}
+.forget{
+    color:white;
+    white-space:normal;
+}
+.forget input{
+    margin-top:20px;
+    height: 10px;
+    width:20px;
+    padding: 0 0px;
+}
+
+.login_form .register{
+  margin: auto;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

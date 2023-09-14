@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(ganpati.jpg);
+    background-position: center;
+    background-size:cover;
+    padding:0 8%;
+    position:relative;
+
+}
+
+.logo{
+    width: 70px;
+    border-radius:50%;
+    height: 90px;
+}
+
+
+.content{
+    top: 25%;
+    position: absolute;
+    transform: traslateY(-50%);
+    color:aliceblue;
+}
+.container p{
+    font-size:20px;
+    color:#bd5959;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.content h1{
+    font-size: 40px;
+    font-weight:500;
+    color:rgb(71, 171, 88);
+    font-family:cursive;  
+    text-align: center;  
+}
+.content h1 span{
+    color:rgba(226, 3, 223, 0.802);
+    font-size:60px ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content h2{
+    font-size:30px;
+    font-weight: 400;
+    color:rgb(154, 112, 199);
+    font-family: fantasy;
+    
+    text-align: center;
+}
+
+h4{
+    font-size: larger;
+    font-weight: 200;
+    text-align: center;
+    color:black;
+}
+
+.launch-time{
+    display: flex;
+    text-align: center;
+    
+}
+
+.launch-time div{
+   flex-basis:100px;
+   margin:16px;
+}
+
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    color:rgb(24, 222, 189);
+}
